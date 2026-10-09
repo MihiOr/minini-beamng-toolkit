@@ -1,0 +1,67 @@
+{
+  "name": "MiNini BeamNG Toolkit",
+  "version": "0.2.0",
+  "description": "Standalone BeamNG tools for wheel-load balance, debug-state persistence, mouse steering, spawn heading, and STM32 dashboard telemetry.",
+  "mods": [
+    {
+      "id": "CompanionWeightBalance",
+      "title": "Weight Balance",
+      "kind": "UI app",
+      "description": "Live FL/FR/RL/RR tire loads, total wheel load, and a circular front/rear and left/right balance display."
+    },
+    {
+      "id": "CompanionDebugMemory",
+      "title": "Debug Memory",
+      "kind": "Background extension",
+      "description": "Remembers vehicle debug visualizations, mesh visibility and debug spawn settings between game sessions."
+    },
+    {
+      "id": "CompanionMouseSteering",
+      "title": "Mouse Steering Toggle",
+      "kind": "Input action",
+      "description": "Adds or removes direct Mouse X steering through BeamNG's normal input-binding system."
+    },
+    {
+      "id": "CompanionSpawnHeading",
+      "title": "Spawn Heading",
+      "kind": "Background extension",
+      "description": "Turns marked vehicles 90 degrees right on spawn without changing their nodes or meshes."
+    },
+    {
+      "id": "CompanionDashboard",
+      "title": "Dashboard Telemetry",
+      "kind": "Telemetry extension",
+      "description": "Sends the active player's vehicle data to AutoCraft Companion over localhost UDP for forwarding to an STM32 dashboard."
+    },
+    {
+      "id": "CompanionCameraSpeed",
+      "title": "Camera Speed",
+      "kind": "Development helper",
+      "description": "Sets free-camera movement speed to 100."
+    },
+    {
+      "id": "MininiRotationCenter",
+      "title": "Rotation Centers",
+      "kind": "Development helper",
+      "description": "Shows actual RC in green, ECU-estimated ERC in yellow and wanted WRC in blue."
+    },
+    {
+      "id": "MininiTestBench",
+      "title": "Minini Test Bench",
+      "kind": "Development helper",
+      "description": "Prescribes steering, starting speed and per-wheel exact or additional torque; displays RC and rotation speeds."
+    },
+    {
+      "id": "MiTVSDebug",
+      "title": "MiTVS Debug",
+      "kind": "Development helper",
+      "description": "Displays ECU RC/RS targets, per-wheel added correction, slip estimates and pedal requests."
+    },
+    {
+      "id": "MininiDebug",
+      "title": "Minini Live Debugger",
+      "kind": "Development helper",
+      "description": "Local UDP commands and motor/IMU telemetry for supported Companion EV vehicles."
+    }
+  ]
+}
