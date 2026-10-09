@@ -1,0 +1,15 @@
+{
+  "name": "minini-beamng-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Build and preview tools for the MiNini BeamNG Toolkit.",
+  "scripts": {
+    "test": "node --test tests/balance.test.mjs",
+    "render": "node tools/render-preview.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0",
+    "vue": "^3.5.0"
+  }
+}

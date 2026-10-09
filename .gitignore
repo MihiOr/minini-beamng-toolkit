@@ -1,0 +1,32 @@
+# Generated packages and local tools
+/dist/
+/node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+*.zip
+*.log
+*.tmp
+
+# Local data and credentials
+settings.json
+settings.*.json
+.env
+.env.*
+**/cookies*
+**/credentials*
+**/secrets*
+*.key
+*.pem
+*.p12
+*.pfx
+*.vcl
+*.exe
+*.dll
+*.lnk
+Desktop.ini
+Thumbs.db
+.vscode/
+.idea/

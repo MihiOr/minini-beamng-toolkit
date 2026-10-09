@@ -1,0 +1,37 @@
+MiNini BeamNG Toolkit
+
+1. Extract the outer MiNini-BeamNG-Toolkit release ZIP.
+2. Copy the individual Companion*.zip files you want into BeamNG's current
+   user-folder mods directory. Leave those individual ZIPs packed.
+3. Enable them in Mod Manager and restart BeamNG.
+
+Do not put the outer bundle ZIP in the mods folder: it contains nested ZIPs.
+If a mod is already installed through AutoCraft Companion or as an unpacked
+mod, keep only one active copy of that mod.
+
+Included mods:
+
+CompanionWeightBalance.zip
+  Add "Companion Weight Balance" from the game's UI Apps menu.
+  Shows wheel loads, total load, left/right balance and front/rear balance.
+
+CompanionDebugMemory.zip
+  Remembers the vehicle debug options you use in the game's Debug actions tab.
+  Loads automatically; no separate widget or app is needed.
+
+CompanionMouseSteering.zip
+  Bind "Toggle mouse steering (direct)" in Controls > Vehicle to G or another key.
+  Toggles the Mouse X steering axis with the Wheel (direct) filter.
+  Toggle OFF before disabling the mod if you want that mouse binding removed.
+
+CompanionSpawnHeading.zip
+  Rotates vehicles with a companion_spawn_heading.json marker 90 degrees right.
+  AutoCraft Companion adds the marker when its spawn-heading override is enabled.
+  Unmarked vehicles are unaffected.
+
+CompanionDashboard.zip
+  Sends active-vehicle telemetry to localhost UDP port 28574.
+  Keep AutoCraft Companion open and Connect in its Dashboard tab for COM output.
+  The game mod itself does not open a COM port.
+
+See the repository README for details, dependencies and build instructions.
